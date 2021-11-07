@@ -1,0 +1,7 @@
+POST http://localhost:8000/user/create
+Content-Type: application/json
+
+{
+    "name": "Sergio Madrigal",
+    "web": "www.sergiomadrigal.com"
+}
