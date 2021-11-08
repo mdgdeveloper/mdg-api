@@ -50,4 +50,37 @@ const houses = [
   }
 ];
 
-module.exports = { houses }
+
+const characters = [
+  {
+    id: 0,
+    name: "Paul Atreides",
+    house_id: 0,
+  },
+  {
+    id: 1,
+    name: "Leto Atreides",
+    house_id: 0,
+  }
+];
+
+const books = [
+  {
+    id: 0,
+  }
+]
+
+
+const galaxy = [
+  {
+    id: 0,
+  }
+]
+
+const religions = [
+  {
+    id: 0,
+  }
+]
+
+module.exports = { houses, characters }

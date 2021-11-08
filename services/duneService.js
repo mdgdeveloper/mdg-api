@@ -4,4 +4,8 @@ const getHouses = () => {
     return data.houses;
 }
 
-module.exports = { getHouses };
+const getCharacters = () => {
+    return data.characters;
+}
+
+module.exports = { getHouses, getCharacters };
