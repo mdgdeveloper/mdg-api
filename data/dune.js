@@ -61,7 +61,57 @@ const characters = [
     id: 1,
     name: "Leto Atreides",
     house_id: 0,
-  }
+  },
+  {
+    id: 2,
+    name: "Alia Atreides",
+    house_id: 0,
+  },
+  {
+    id: 3,
+    name: "Dama Jessica",
+    house_id: 0,
+  },
+  {
+    id: 4,
+    name: "Gurney Halleck",
+    house_id: 0,
+  },
+  {
+    id: 5,
+    name: "Duncan Idaho",
+    house_id: 0,
+  },
+  {
+    id: 6,
+    name: "Esmar Tuek",
+    house_id: 0,
+  },
+  {
+    id: 7,
+    name: "Feyd-Rautha",
+    house_id: 1,
+  },
+  {
+    id: 8,
+    name: "Vladimir Harkonnen",
+    house_id: 1,
+  },
+  {
+    id: 9,
+    name: "Iakin Nefud",
+    house_id: 1,
+  },
+  {
+    id: 10,
+    name: "Glossu \"Beast\" Rabban",
+    house_id: 1,
+  },
+  {
+    id: 11,
+    name: "Piter De Vires",
+    house_id: 1,
+  },
 ];
 
 const books = [

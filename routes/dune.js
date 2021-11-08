@@ -10,8 +10,17 @@ router.get('/houses', (req, res) => {
     res.send(duneService.getHouses());
 })
 
-router.get('/character', (req,res)=>{
-    res.send(duneService.getCharacters());
+router.get('/characters', (req,res)=>{
+    // const list = duneService.getCharacters();
+    const result = duneService.getCharacters().map( (character) => {
+        const value = {
+            id: character.id,
+            name: character.name,
+        }
+        const house = duneService.getHouse(character.house_id);
+        return {...value, house};
+    });
+    res.send(result);
 })
 
 

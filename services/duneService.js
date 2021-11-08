@@ -8,4 +8,8 @@ const getCharacters = () => {
     return data.characters;
 }
 
-module.exports = { getHouses, getCharacters };
+const getHouse = ( houseID ) => {
+    return (data.houses.filter( house => house.id === houseID));
+}
+
+module.exports = { getHouses, getCharacters, getHouse };
