@@ -4,6 +4,7 @@ const cors = require('cors');
 // Route management
 // import userRoutes from './routes/users';
 const duneRoutes = require('./routes/dune');
+const timeTrackingRoutes = require('./routes/timeTracking');
 
 // General configuration of the Express Application
 const app = express();
@@ -19,6 +20,9 @@ app.use(cors());
 // Dune API
 app.use('/api/dune', duneRoutes);
 
+
+// Time Tracking API
+app.use('/api/timetracking', timeTrackingRoutes);
 
 // Server start 
 app.listen( port, ()=> {
